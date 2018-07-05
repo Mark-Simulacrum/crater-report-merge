@@ -12,7 +12,7 @@ tokio-core = "0.1"
 futures = "0.1"
 url = "1.7"
 percent-encoding = "1"
-release-triage = { path = "../release-triage" }
+release-triage = { git = "https://github.com/Mark-Simulacrum/release-triage.git" }
 petgraph = "0.4"
 semver = "0.9"
 
