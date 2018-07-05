@@ -4,3 +4,17 @@ version = "0.1.0"
 authors = ["Mark Rousskov <mark.simulacrum@gmail.com>"]
 
 [dependencies]
+serde = "1"
+serde_json = "1"
+serde_derive = "1"
+reqwest = { version = "0.8.6", features = ["unstable"] }
+tokio-core = "0.1"
+futures = "0.1"
+url = "1.7"
+percent-encoding = "1"
+release-triage = { path = "../release-triage" }
+petgraph = "0.4"
+semver = "0.9"
+
+[profile.release]
+debug = true
