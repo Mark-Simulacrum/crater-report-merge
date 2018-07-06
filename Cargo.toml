@@ -15,6 +15,7 @@ percent-encoding = "1"
 release-triage = { git = "https://github.com/Mark-Simulacrum/release-triage.git" }
 petgraph = "0.4"
 semver = "0.9"
+failure = "0.1"
 
 [profile.release]
 debug = true
